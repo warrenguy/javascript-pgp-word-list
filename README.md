@@ -41,6 +41,8 @@ Warren Guy <warren@guy.net.au>
 
 https://warrenguy.me
 
+The word list itself belongs to PGP Corporation.
+
 ## License
 
 MIT license. See [LICENSE](https://github.com/warrenguy/ruby-pgp-word-list/blob/master/LICENSE)
