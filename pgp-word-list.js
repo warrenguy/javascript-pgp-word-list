@@ -32,7 +32,6 @@ function pgp_hex_to_word(hex, position) { return pgp_word_list[hex][position%2];
 function pgp_hex_to_words(hexs) {
   var words = [];
   var i = 0;
-  //hexs.toUpperCase().replace(/[^0-9A-F]/g,'').match(/.{1,2}/g).forEach(function(hex){
   hexs.forEach(function(hex){
     words.push(pgp_hex_to_word(hex.toUpperCase(),i));
     i++;
@@ -59,7 +58,6 @@ function pgp_word_to_hex(word) {
 }
 function pgp_words_to_hex(words) {
   hexs = [];
-  //words.split(' ').forEach(function(word){
   words.forEach(function(word){
     hexs.push(pgp_word_to_hex(word));
   });
