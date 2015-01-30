@@ -4,6 +4,8 @@ Convert hex strings to PGP word lists and vice-versa.
 
 See [PGP word list on WikiPedia](http://en.wikipedia.org/wiki/PGP_word_list]) for more information.
 
+I've also written a Ruby version: [ruby-pgp-word-list](https://github.com/warrenguy/ruby-pgp-word-list).
+
 ## Usage
 
 Include pgp-word-list.js, which provides following functions:
