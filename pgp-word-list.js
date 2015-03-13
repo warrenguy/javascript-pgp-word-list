@@ -40,10 +40,10 @@ function pgp_hex_to_words(hexs) {
 }
 
 function pgp_word_to_hex(word) {
-  function contains(a, obj) {
+  function contains(a, w) {
     var i = a.length;
     while (i--) {
-      if (a[i] === obj) {
+      if (a[i].toUpperCase() === w.toUpperCase()) {
         return true;
       }
     }
